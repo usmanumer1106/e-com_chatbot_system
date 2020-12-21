@@ -1,0 +1,431 @@
+/*
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+*/
+
+/*--reset--*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+dl,
+dt,
+dd,
+ol,
+nav ul,
+nav li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+ol,
+ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*--start editing from here--*/
+
+a {
+	text-decoration: none;
+}
+
+.txt-rt {
+	text-align: right;
+}
+
+/* text align right */
+
+.txt-lt {
+	text-align: left;
+}
+
+/* text align left */
+
+.txt-center {
+	text-align: center;
+}
+
+/* text align center */
+
+.float-rt {
+	float: right;
+}
+
+/* float right */
+
+.float-lt {
+	float: left;
+}
+
+/* float left */
+
+.pos-relative {
+	position: relative;
+}
+
+/* Position Relative */
+
+.pos-absolute {
+	position: absolute;
+}
+
+/* Position Absolute */
+
+.vertical-base {
+	vertical-align: baseline;
+}
+
+/* vertical align baseline */
+
+.vertical-top {
+	vertical-align: top;
+}
+
+/* vertical align top */
+
+nav.vertical ul li {
+	display: block;
+}
+
+/* vertical menu */
+
+nav.horizontal ul li {
+	display: inline-block;
+}
+
+/* horizontal menu */
+
+img {
+	max-width: 100%;
+}
+
+/*--end reset--*/
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 100%;
+	background: url(../images/banner.jpg)no-repeat center;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-ms-background-size: cover;
+	background-attachment: fixed;
+	text-align: center;
+}
+
+.w3ls-login {
+	display: -webkit-flex;
+	display: -webkit-box;
+	display: -moz-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-moz-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+}
+h1 {
+    font-size: 3.2em;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #e91e63;
+    letter-spacing: 2px;
+    text-shadow: 2px 0px 0px #fff;
+    margin: 1.1em 1vw .9em;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.w3ls-login form {
+    max-width: 550px;
+    margin: 0 5vw;
+    background: #181818;
+    background-size: cover;
+    background: #eee;
+    background-size: cover;
+    box-shadow: 2px 2px 17px rgba(41, 40, 40, 0.39);
+    padding: 3.5vw;
+    box-sizing: border-box;
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+}
+.w3ls-login label {
+	font-size: 14px;
+	color: #000000;
+	float: left;
+	font-weight: 500;
+	margin-bottom: 10px;
+	text-transform: capitalize;
+	letter-spacing: 2px;
+	cursor: pointer;
+}
+
+.agile-field-txt {
+	flex-basis: 100%;
+	-webkit-flex-basis: 100%;
+	margin-bottom: 1.5em;
+}
+
+.w3ls-login label i {
+	font-size: 1.1em;
+	margin-right: 3px;
+	color: #E91E63;
+}
+
+.w3ls-login input[type="text"],
+.w3ls-login input[type="password"] {
+	width: 100%;
+	color: #000;
+	outline: none;
+	font-size: 16px;
+	letter-spacing: 0.5px;
+	/* line-height: 25px; */
+	padding: 15px 15px;
+	box-sizing: border-box;
+	border: none;
+	box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.49);
+	-webkit-appearance: none;
+	font-family: 'Source Sans Pro', sans-serif;
+	background:#fff;
+}
+.check1 {
+    text-align: left;
+}
+label.check{
+	float: none;;
+}
+.agile_label {
+    text-align: left;
+    margin: 10px 0 0;
+}
+.w3ls-login.w3l-sub {
+	margin-top: 1em;
+	flex-basis: 100%;
+	-webkit-flex-basis: 100%;
+}
+a.w3ls-right {
+    float: right;
+	font-size: 14px;
+    color: #000000;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+.w3ls-login input[type=submit] {
+    color: #f6f6f6;
+    width: 100%;
+    padding: 0.5em 0;
+    font-size: 1.1em;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: #E91E63;
+    font-family: 'Source Sans Pro', sans-serif;
+    transition: 0.5s all ease;
+    -webkit-transition: 0.5s all ease;
+    -moz-transition: 0.5s all ease;
+    -o-transition: 0.5s all ease;
+    -ms-transition: 0.5s all ease;
+}
+
+.w3ls-login input[type=submit]:hover {
+	background: #000;
+	color: #fff;
+}
+
+/*--copyright--*/
+
+.copy-wthree {
+	margin: 4em 0em;
+}
+
+.copy-wthree p {
+    color: #e91e63;
+    font-size: 14.5px;
+    letter-spacing: 1.5px;
+    line-height: 1.8;
+	margin: 0 3vw;
+	font-weight: 600;
+}
+
+.copy-wthree p a {
+	color: #E91E63;
+	transition: 0.5s all ease;
+	-webkit-transition: 0.5s all ease;
+	-moz-transition: 0.5s all ease;
+	-o-transition: 0.5s all ease;
+	-ms-transition: 0.5s all ease;
+}
+
+.copy-wthree p a:hover {
+	color: #4a90e2;
+}
+
+/*--//copyright--*/
+
+/*--responsive--*/
+
+@media(max-width:1920px) {
+	h1 {
+		font-size: 3.5vw;
+	}
+}
+
+@media(max-width:1024px) {
+	h1 {
+		font-size: 4.5vw;
+	}
+}
+
+@media(max-width:800px) {
+	h1 {
+		font-size: 5vw;
+	}
+}
+
+@media(max-width:480px) {
+	h1 {
+		font-size: 2.5em;
+	}
+	.w3ls-login form {
+		padding: 7.5vw;
+	}
+}
+
+@media(max-width:440px) {
+	h1 {
+		font-size: 2.3em;
+	}
+	.parent {
+		display: block;
+	}
+}
+
+@media(max-width:320px) {
+	h1 {
+		font-size: 1.8em;
+	}
+	.w3ls-login form {
+		padding: 25px 8px;
+	}
+}
+
+/*--//responsive--*/
