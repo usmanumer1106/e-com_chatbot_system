@@ -35,7 +35,20 @@ class operationsadmin extends dbconfig
 
             $result = mysqli_query($db->connection, $query);
             if (mysqli_num_rows($result) > 0) {
+                $data=mysqli_fetch_assoc(($result));
+               
+                $to=$data['admin_email'];
+                $Password=$data['admin_password'];
+                $Subject="Password Reset";
+                $Body="Hi,".$data['admin_name']." Your Paaword for this account is".$data['admin_password']."";
+                $sender_email = "From: soulhacker6678@gmail.com";
                 echo '<div class="alert alert-danger"> Password reset link sent to your email.</div>';
+               /*
+               Will Work Only If Mail Server is exsisted 
+               if(mail($to,$Subject,$Body,$sender_email)){
+                    echo '<div class="alert alert-danger"> Password reset link sent to your email.</div>';
+                }
+                */
 
             } else
              {
