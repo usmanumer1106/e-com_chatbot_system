@@ -1,3 +1,4 @@
+<!-- Front-end contributed by Muhammad-Hasnat -->
 <?php
 require_once('./config/dbconfig.php');
 $db = new operationsadmin();
