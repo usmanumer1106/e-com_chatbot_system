@@ -1,4 +1,4 @@
-<!--PHP code contributed by Muhammad Usman Umer-->
+<!--All PHP code in this page is  contributed by Muhammad Usman Umer-->
 
 
 <?php 
