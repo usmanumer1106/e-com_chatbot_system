@@ -1,4 +1,4 @@
-<!-- php code in this page is contributed by Muhammad Usman Umer -->
+<!-- PHP code in this page is contributed by Muhammad Usman Umer -->
 
 <?php 
    require_once("header.php");
