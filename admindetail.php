@@ -1,6 +1,4 @@
-<!--All PHP code in this page is  contributed by Muhammad Usman Umer-->
-
-
+<!--PHP code in this page is contributed by Muhammad Usman Umer-->
 <?php 
 
 require_once('./config/dbconfig.php');
