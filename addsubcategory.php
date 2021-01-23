@@ -1,3 +1,4 @@
+<!-- PHP code in this page is  contributed by Muhammad Usman Umer -->
 <?php 
 require_once("header.php");
 require_once('./config/dbconfig.php');
@@ -19,7 +20,7 @@ $db2 = new operationscategory();
                                 <div class="card-body">
                                     <form method="post">
                                     <div class="col-md-12" >
-                                          <div class="form-group">
+                                      <div class="form-group">
                                                 <label for="msubcat"><b>Main Category</b></label>
                                                     <select class="form-control rounded-0" id="msubcat" name="maincat">
                                                     <option value="NULL"> Select Main Category</option>
