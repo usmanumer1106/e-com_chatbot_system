@@ -1,5 +1,7 @@
 <?php
 require_once('./config/operationsadmin.php');
+require_once('./config/operationscategory.php');
+require_once('./config/operationssubcategory.php');
 class dbconfig
 {
     public $connection;
