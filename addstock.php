@@ -1,3 +1,4 @@
+<!-- PHP code in this page is  contributed by Muhammad Usman Umer -->
 <?php
 if (isset($_GET['P_ID'])) {
     include_once('header.php');
@@ -20,7 +21,6 @@ if(isset($_POST['btn_addstock']))
     $XL=$_POST['XL'];
     $db->add_stock($id,$S,$M,$L,$XL);
 }
-
 ?>
 <div class="content-wrapper">
     <div class="container-fluid">
