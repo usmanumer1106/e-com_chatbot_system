@@ -1,4 +1,6 @@
+
 <!-- PHP code in this page is  contributed by Muhammad Usman Umer -->
+
 <?php
 session_start();
 if(!(isset($_SESSION['adminid'])))
@@ -118,8 +120,13 @@ require_once('./config/dbconfig.php');
                         <span class="nav-link-text">Categories</span>
                     </a>
                     <ul class="sidenav-second-level collapse" id="widgets" data-parent="#accordion">
+
                         <li> <a href="###">Show Categories</a> </li>
                         <li> <a href="###">Add Category</a> </li>
+
+                        <li> <a href="showcategory.php">Show Categories</a> </li>
+                        <li> <a href="addcategory.php">Add Category</a> </li>
+
                     </ul>
                 </li>
                 <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Exra Pages">
@@ -128,8 +135,13 @@ require_once('./config/dbconfig.php');
                         <span class="nav-link-text">Subcategories</span>
                     </a>
                     <ul class="sidenav-second-level collapse" id="extra_page" data-parent="#accordion">
+
                         <li> <a href="###">Show Subcategory</a> </li>
                         <li> <a href="###">Add Subcategory</a> </li>
+
+                        <li> <a href="showsubcategory.php">Show Subcategory</a> </li>
+                        <li> <a href="addsubcategory.php">Add Subcategory</a> </li>
+
                     </ul>
                 </li>
                 <li class="nav-item" data-toggle="tooltip" data-placement="right" title="UI Elements">
