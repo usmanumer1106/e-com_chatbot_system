@@ -1,4 +1,6 @@
-<?php  
+<?php 
+
+    
     require_once('./config/dbconfig.php');
     $db = new dbconfig();
 
@@ -47,7 +49,7 @@
                                                    
                                                 </div>
                                                 <div class="modal-body">
-                                                    Failed To Add New Subcategory!
+                                                    Failed To Add New SubCategory!
                                                 </div>
                                                 <div class="modal-footer">
                                                     <a  href="addsubcategory.php" class="btn btn-primary">Okay</a>

@@ -66,7 +66,7 @@ $result=$db->view_record();
                                             <div class="modal-content">
                                                 <div class="modal-header">
                                                     <h5 class="modal-title" id="exampleModalLabel">Delete Admin</h5>
-                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <button type="button" class="close  rounded-0" data-dismiss="modal" aria-label="Close">
                                                         <span aria-hidden="true">&times;</span>
                                                     </button>
                                                 </div>
@@ -74,8 +74,8 @@ $result=$db->view_record();
                                                     Are you sure you want to delete this?
                                                 </div>
                                                 <div class="modal-footer">
-                                                    <a  class="btn btn-secondary" data-dismiss="modal">Close</a>
-                                                    <a  class="btn btn-danger" href="deleteadmin.php?D_ID=<?php echo $data['admin_id'] ?>" >Delete</a>
+                                                    <a  class="btn btn-secondary rounded-0" data-dismiss="modal">Close</a>
+                                                    <a  class="btn btn-danger  rounded-0" href="deleteadmin.php?D_ID=<?php echo $data['admin_id'] ?>" >Delete</a>
                                                    
                                                 </div>
                                             </div>

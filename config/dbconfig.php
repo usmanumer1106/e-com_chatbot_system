@@ -2,6 +2,7 @@
 require_once('./config/operationsadmin.php');
 require_once('./config/operationscategory.php');
 require_once('./config/operationssubcategory.php');
+require_once('./config/operationsproduct.php');
 class dbconfig
 {
     public $connection;
@@ -18,7 +19,4 @@ class dbconfig
             die(" Connect Failed ");
         }
     }
-
 }
- 
-?>

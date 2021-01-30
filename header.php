@@ -138,8 +138,8 @@ require_once('./config/dbconfig.php');
                         <span class="nav-link-text">Product</span>
                     </a>
                     <ul class="sidenav-second-level collapse" id="product" data-parent="#accordion">
-                        <li> <a href="###">Show Products</a> </li>
-                        <li> <a href="###">Add Product</a></li>
+                        <li> <a href="showproduct.php">Show Products</a> </li>
+                        <li> <a href="addproduct.php">Add Product</a></li>
                         
                     </ul>
                 </li>
