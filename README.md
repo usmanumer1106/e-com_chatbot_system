@@ -8,6 +8,14 @@ Everyone loves online shopping and ecommerce stores these days but most stores p
 
 The system packs in most features provided by modern ecommerce stores. The admin panel provides an easy to use interface to manage users, products, orders, and stocks. The shopping store allows users to explore products, add items to cart, place orders, see orders with status, manage account information and a bunch of other features.
 
+**Scope**
+
+•	The system can negotiate with customers.
+•	The system can reply to customer quarries to some extent.
+•	The system can recommend products to customers according to his past searches on our site.
+•	The system can bargain price if the customer buys products above a certain limit.
+•	The system will not offer a bargain facility for each product.
+
 **Chatbot:**
 
 The chatbot enhances the user experience of the store by resolving user queries about products, prices and more. Most often in 	online shopping if the customers can't find what they are looking for, they get frustrated too early. They want someone to interact with and resolve their issue. Chatbots can provide a quick response in state of an emergency. They enhance customer support and make the customer feel at home. 
