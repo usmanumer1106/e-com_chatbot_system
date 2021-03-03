@@ -1,5 +1,6 @@
 **Price Negotiator Ecommerce Chatbot System**
 
+
 **Project Introduction**
 
 Everyone loves online shopping and ecommerce stores these days but most stores provide little support to customers. Support means flexibility in price and a chance to explore products in a more easy and quick way. The project will achieve this aim with the aid of a chatbot integrated with an ecommerce store.
@@ -82,7 +83,4 @@ Most often in online shopping if the customers can't find what they are looking 
 13.	Enter login credentials and start exploring the project.
 
 
-							
-
-
-
+**That's All! Thank You!**
