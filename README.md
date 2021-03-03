@@ -1,56 +1,37 @@
 **Price Negotiator Ecommerce Chatbot System**
 
-
-
-
 **Project Introduction**
 
 Everyone loves online shopping and ecommerce stores these days but most stores provide little support to customers. Support means flexibility in price and a chance to explore products in a more easy and quick way. The project will achieve this aim with the aid of a chatbot integrated with an ecommerce store.
 
-
-
-
 **Scope**
 
-o	The system can negotiate with customers.
-o	The system can reply to customer queries to some extent.
-o	The system can recommend products to customers according to their past searches on our site.
-o	The system can bargain price if the customer buys products above a certain limit.
-o	The system will not offer a bargain facility for each product.
-
-
-
+1.	The system can negotiate with customers.
+2.	The system can reply to customer queries to some extent.
+3.	The system can recommend products to customers according to their past searches on our site.
+4.	The system can bargain price if the customer buys products above a certain limit.
+5.	The system will not offer a bargain facility for each product.
 
 **Users**
 
-
 **Super user:** This user has the  highest privileges in the system. It can:
 
-o	Add, delete admins, 
-o	Add, delete products and categories, 
-o	Process orders 
-
+1.	Add, delete admins, 
+2.	Add, delete products and categories, 
+3.	Process orders 
 
 **Admin:** Admin can:
-
-o	Add Products 
-o	Process orders
-
+1.	Add Products 
+2.	Process orders
 
 **Users:** Users can use the system for shopping.
 
+**Goals and Objectives **
 
-
-
-**Goals and Objectives**
-
-	Improve shopping experience. 
-	Provide enhanced customer support.
-	Provide the opportunity to negotiate price in an online shopping store.
-	Provide a quick way to find and buy products at a discounted price.
-
-
-
+1.	Improve shopping experience. 
+2.	Provide enhanced customer support.
+3.	Provide the opportunity to negotiate price in an online shopping store.
+4.	Provide a quick way to find and buy products at a discounted price.
 
 **Functionality**
 
@@ -70,13 +51,7 @@ The shopping store allows users to:
 	
 and a bunch of other features.
 
-
-
-
 **Payment Processing:** The system processes payment using Stripe. 
-
-
-
 
 **Chatbot:**
 
@@ -86,15 +61,9 @@ The chatbot enhances the user experience of the store by resolving user queries 
 3.	New offers
 4.	Customer support
 
-
-
-
 **Application**
 
 Most often in online shopping if the customers can't find what they are looking for, they get frustrated too early. They want someone to interact with and resolve their issue. Chatbots can provide a quick response in state of an emergency. They enhance customer support and make the customer feel at home.   
-
-
-
 
 **Installation**
 
