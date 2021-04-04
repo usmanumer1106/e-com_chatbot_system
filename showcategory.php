@@ -51,7 +51,7 @@ if (isset($_POST['btn_delete'])) {
                                             <input type="hidden" value="<?php echo $data['category_id']; ?>" name="ID" />
                                             <td>
                                                 <!-- Button trigger modal -->
-                                                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal1">
+                                                <button type="button" class="btn btn-danger  rounded-0" data-toggle="modal" data-target="#modal1">
                                                     Delete
                                                 </button>
 
@@ -61,7 +61,7 @@ if (isset($_POST['btn_delete'])) {
                                                         <div class="modal-content">
                                                             <div class="modal-header">
                                                                 <h5 class="modal-title" id="exampleModalLabel">Delete Category</h5>
-                                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                <button type="button" class="close  rounded-0" data-dismiss="modal" aria-label="Close">
                                                                     <span aria-hidden="true">&times;</span>
                                                                 </button>
                                                             </div>

@@ -66,6 +66,13 @@ class operationsadmin extends dbconfig
         $result = mysqli_query($db->connection, $query);
         return $result;
     }
+    public function view_user()
+    {
+        global $db;
+        $query = "SELECT * FROM `user`";
+        $result = mysqli_query($db->connection, $query);
+        return $result;
+    }
 
      // Insert Record in the Database
      public function Store_Record()
@@ -163,6 +170,37 @@ class operationsadmin extends dbconfig
          
          
 
+      }
+      public function changepassword()
+      {
+          global $db;
+          $id=$_SESSION["adminid"];
+          if(isset($_POST['btn_change']))
+          {
+              
+              $oldpass = md5($_POST['old_password']);
+              $newpass = md5($_POST['new_password']);
+              
+              $query="select * from admin where admin_id=$id and admin_password='$oldpass'";
+              $result=mysqli_query($db->connection,$query);
+         
+              $no=mysqli_num_rows($result);
+            
+              if($no>0 )
+             {
+              $query = "UPDATE `admin` SET `admin_password`= '$newpass' WHERE admin_id='$id'";
+              if(mysqli_query($db->connection,$query))
+              echo '<div class="alert alert-success"> Password Change Successfuly </div>';
+             
+             }
+             else{
+              echo '<div class="alert alert-danger"> Wrong Old Password </div>';
+             
+             }
+    
+      
+          
+      }
       }
 }
 ?>

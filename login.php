@@ -11,7 +11,7 @@ if (isset($_SESSION["admin_id"])) {
 <html>
 
 <head>
-	<title>E-COM CHATBOT SYSTEM</title>
+	<title>E-COM SYSTEM</title>
 	<!-- Meta-Tags -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="utf-8">
@@ -29,7 +29,7 @@ if (isset($_SESSION["admin_id"])) {
 </head>
 
 <body style="margin-top:-40px; margin-bottom:-60px;">
-	<h1 style="color:black;">CMS Sargodha </h1>
+	<h1 style="color:black;">E-COM SYSTEM </h1>
 	<div class="w3ls-login">
 
 		<!-- form starts here -->
@@ -38,7 +38,7 @@ if (isset($_SESSION["admin_id"])) {
 			<div class="agile-field-txt">
 				<label>
 					<i class="fa fa-user" style="color:black;" aria-hidden="true"></i> Email :</label>
-				<input type="text" name="email" placeholder="Email" required="" />
+				<input type="text" class="form-control" name="email" placeholder="Email" required="" />
 			</div>
 			<div class="agile-field-txt">
 				<label>
@@ -73,7 +73,7 @@ if (isset($_SESSION["admin_id"])) {
 
 	<!--copyright-->
 	<div class="copy-wthree">
-		<p style="color:black;">COPYRIGHT © E-COM CHATBOT SYSTEM 2020 @ DEVELOPED BY UAH DEVS </p>
+		<p style="color:black;">COPYRIGHT © E-COM SYSTEM 2021 @ DEVELOPED BY <a href="mailto:usmanumer1106@gmail.com"> Muhammad Usman Umer </a></p>
 	</div>
 	<!--//copyright-->
 </body>

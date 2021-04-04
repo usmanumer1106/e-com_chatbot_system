@@ -3,6 +3,7 @@ require_once('./config/operationsadmin.php');
 require_once('./config/operationscategory.php');
 require_once('./config/operationssubcategory.php');
 require_once('./config/operationsproduct.php');
+require_once('./config/operationsorder.php');
 class dbconfig
 {
     public $connection;
@@ -14,7 +15,7 @@ class dbconfig
 
     public function db_connect()
     {
-        $this->connection = mysqli_connect('localhost', 'root', '', 'e-com_chatbot_system');
+        $this->connection = mysqli_connect('localhost', 'root', '', 'e-com');
         if (mysqli_connect_error()) {
             die(" Connect Failed ");
         }

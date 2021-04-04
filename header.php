@@ -14,46 +14,8 @@ require_once('./config/dbconfig.php');
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="Mosaddek">
-
-    <!--favicon icon-->
-    <link rel="icon" type="image/png" href="assets/img/favicon.html">
-
-    <title>E-COM CHATBOT SYSTEM</title>
-
-    <!--web fonts-->
-    <link href="http://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800" rel="stylesheet">
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
-
-    <!--bootstrap styles-->
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!--icon font-->
-    <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href="assets/vendor/dashlab-icon/dashlab-icon.css" rel="stylesheet">
-    <link href="assets/vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
-    <link href="assets/vendor/themify-icons/css/themify-icons.css" rel="stylesheet">
-    <link href="assets/vendor/weather-icons/css/weather-icons.min.css" rel="stylesheet">
-
-    <!--custom scrollbar-->
-    <link href="assets/vendor/m-custom-scrollbar/jquery.mCustomScrollbar.css" rel="stylesheet">
-
-    <!--jquery dropdown-->
-    <link href="assets/vendor/jquery-dropdown-master/jquery.dropdown.css" rel="stylesheet">
-
-    <!--jquery ui-->
-    <link href="assets/vendor/jquery-ui/jquery-ui.min.css" rel="stylesheet">
-
-    <!--iCheck-->
-    <link href="assets/vendor/icheck/skins/all.css" rel="stylesheet">
-
-    <!--vector maps -->
-    <link href="assets/vendor/vector-map/jquery-jvectormap-1.1.1.css" rel="stylesheet" >
-
-    <!--c3chart-->
-    <link href="assets/vendor/c3chart/c3.min.css" rel="stylesheet">
-
-    <!--custom styles-->
-    <link href="assets/css/main.css" rel="stylesheet">
+    <?php include_once("css.php")?>
+    <title>E-COM SYSTEM</title>
 
 </head>
 
@@ -92,9 +54,9 @@ require_once('./config/dbconfig.php');
                     </a>
                     <ul class="sidenav-second-level collapse show" id="dashboard" data-parent="#accordion">
                         <li class="active"> <a href="index.php">Dashboard</a> </li>
-                        <li> <a href="###">Not Process Yet<b class="label orange pull-right"></b></a></li>
-                        <li> <a href="###">In Process<b class="label orange pull-right"></b></a></li>
-                        <li> <a href="###">Shipped<b class="label green pull-right"></b></a></li>
+                        <li> <a href="notprocessorder.php">Not Process Yet<b class="label orange pull-right"></b></a></li>
+                        <li> <a href="inprocessorder.php">In Process<b class="label orange pull-right"></b></a></li>
+                        <li> <a href="shippedorder.php">Shipped<b class="label green pull-right"></b></a></li>
                         
                          </ul>
                 </li>
@@ -105,7 +67,7 @@ require_once('./config/dbconfig.php');
                         <span class="nav-link-text">Users</span>
                     </a>
                     <ul class="sidenav-second-level collapse" id="ui_elements" data-parent="#accordion">
-                        <li> <a href="###">Show Users</a> </li>
+                        <li> <a href="showuser.php">Show Users</a> </li>
                         <li> <a href="showadmin.php">Show Admin</a> </li>
                         <li> <a href="addadmin.php">Add Admin</a></li>
                     </ul>
@@ -154,7 +116,7 @@ require_once('./config/dbconfig.php');
                         <span class="nav-link-text" >Account Setting</span>
                     </a>
                     <ul class="sidenav-second-level collapse" id="accoutn_setting" data-parent="#accordion">
-                        <li> <a href="####">Change Password</a></li>
+                        <li> <a href="changepassword.php">Change Password</a></li>
                         <li> <a href="signout.php">Sign Out</a></li>
                     </ul>
                 </li>
@@ -203,141 +165,7 @@ require_once('./config/dbconfig.php');
         </div>
     </nav>
     <!--/navigation : sidebar & header-->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!--basic scripts-->
-    <script src="assets/vendor/jquery/jquery.min.js"></script>
-    <script src="assets/vendor/jquery-ui/jquery-ui.min.js"></script>
-    <script src="assets/vendor/popper.min.js"></script>
-    <script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
-
-    <script src="assets/vendor/jquery-dropdown-master/jquery.dropdown.js"></script>
-
-    <script src="assets/vendor/m-custom-scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
-
-    <!--sparkline-->
-    <script src="assets/vendor/sparkline/jquery.sparkline.js"></script>
-    <!--sparkline initialization-->
-    <script src="assets/vendor/js-init/sparkline/init-sparkline.js"></script>
-
-    <!--c3chart-->
-    <script src="assets/vendor/c3chart/d3.min.js"></script>
-    <script src="assets/vendor/c3chart/c3.min.js"></script>
-    <!--c3chart initialization-->
-    <script src="assets/vendor/js-init/c3chart/init-c3chart.js"></script>
-
-    <!--chartjs-->
-    <script src="assets/vendor/chartjs/Chart.bundle.min.js"></script>
-    <!--chartjs initialization-->
-    <script src="assets/vendor/js-init/chartjs/init-creative-state-chart.js"></script>
-    <script src="assets/vendor/js-init/chartjs/init-area-chart.js"></script>
-    <script src="assets/vendor/js-init/chartjs/init-line-chart.js"></script>
-    <script src="assets/vendor/js-init/chartjs/init-doughnut-chart.js"></script>
-    <script src="assets/vendor/js-init/chartjs/init-doughnut-chart2.js"></script>
-    <script src="assets/vendor/js-init/chartjs/init-sales-report-chart.js"></script>
-    <script src="assets/vendor/js-init/chartjs/init-bubble-chart.js"></script>
-
-    <!--flot chart-->
-    <script src="assets/vendor/flot/jquery.flot.min.js"></script>
-    <script src="assets/vendor/flot/jquery.flot.pie.min.js"></script>
-    <script src="assets/vendor/flot/jquery.flot.tooltip.min.js"></script>
-    <!--flot chart initialization-->
-    <script src="assets/vendor/js-init/flot/init-flot-widget.js"></script>
-
-    <!--vectormap-->
-    <script src="assets/vendor/vector-map/jquery-jvectormap-1.2.2.min.js"></script>
-    <script src="assets/vendor/vector-map/jquery-jvectormap-world-mill-en.js"></script>
-    <!--vectormap initialization-->
-    <script src="assets/vendor/js-init/vmap/init-vmap-world.js"></script>
-
-    <!--[if lt IE 9]>
-    <script src="assets/vendor/modernizr.js"></script>
-    <![endif]-->
-
-    <!--basic scripts initialization-->
-    <script src="assets/js/scripts.js"></script>
-     <!--datatables-->
-     <script src="assets/vendor/data-tables/jquery.dataTables.min.js"></script>
-    <script src="assets/vendor/data-tables/dataTables.bootstrap4.min.js"></script>
-    <!--init datatable-->
-    <script src="assets/vendor/js-init/init-datatable.js"></script>
- 
-
-      <!--select2-->
-      <script src="assets/vendor/select2/js/select2.min.js"></script>
-    <!--init select2-->
-    <script src="assets/vendor/js-init/init-select2.js"></script>
-   
-     <!--[if lt IE 9]>
-    <script src="assets/vendor/modernizr.js"></script>
-    <![endif]-->
- <!--jquery validate-->
- <script src="assets/vendor/jquery-validation/jquery.validate.min.js"></script>
-
-<!--jquery steps-->
-<script src="assets/vendor/jquery-steps/jquery.steps.min.js"></script>
-<!--init steps-->
-<script src="assets/vendor/js-init/init-form-wizard.js"></script>
-
-<!--jquery stepy-->
-<script src="assets/vendor/jquery-steps/jquery.stepy.js"></script>
- <!--dropzone-->
- <script src="assets/vendor/dropzone/dropzone.js"></script>
-    <!--init dropzone-->
-    <script src="assets/vendor/js-init/init-dropzone.js"></script>
- 
-    <!--init date picker-->
-    <script src="assets/vendor/date-picker/js/bootstrap-datepicker.min.js"></script>
-    <script src="assets/vendor/js-init/pickers/init-date-picker.js"></script>
-
-    
-
-
-    <link href="assets/vendor/data-tables/dataTables.bootstrap4.min.css" rel="stylesheet">
-    <link href="assets/vendor/select2/css/select2.css" rel="stylesheet">
-       <!--dropzone-->
-       <link href="assets/vendor/dropzone/dropzone.min.css" rel="stylesheet">
-    <!--date picker-->
-    <link href="assets/vendor/date-picker/css/bootstrap-datepicker.min.css" rel="stylesheet">
-    
-      <!--custom scrollbar-->
-      <link href="assets/vendor/m-custom-scrollbar/jquery.mCustomScrollbar.css" rel="stylesheet">
-
-<!--jquery dropdown-->
-<link href="assets/vendor/jquery-dropdown-master/jquery.dropdown.css" rel="stylesheet">
-
-<!--jquery ui-->
-<link href="assets/vendor/jquery-ui/jquery-ui.min.css" rel="stylesheet">
-
-
-
-
-
-
-
-
-
+    <?php include_once("javascript.php")?>
 </body>
 
 </html>

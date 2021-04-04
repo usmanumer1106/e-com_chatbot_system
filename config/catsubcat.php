@@ -1,6 +1,6 @@
 <?php
 
-	$conn = mysqli_connect("localhost","root","","e-com_chatbot_system") or die("Connection failed");
+	$conn = mysqli_connect("localhost","root","","e-com") or die("Connection failed");
 
 	if($_POST['type'] == ""){
 		$sql = "SELECT * FROM category";
